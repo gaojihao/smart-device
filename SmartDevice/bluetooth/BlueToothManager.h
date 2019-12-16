@@ -11,9 +11,23 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
+@protocol BlueToothManagerDelegate <NSObject>
+
+@optional
+
+- (void)dataWithBluetoothDic:(NSMutableDictionary *)divices;
+
+- (void)didConnectBle;
+
+- (void)didWriteSucessWithStyle:(NSInteger)style;
+
+@end
+
 @interface BlueToothManager : NSObject
 
 + (instancetype)sharedInstance;
+
+@property (nonatomic, weak, nullable) id <BlueToothManagerDelegate> delegate;
 
 
 - (void)openBlueTooth;

@@ -10,11 +10,16 @@
 
 
 @interface BlueToothManager ()<CBCentralManagerDelegate,CBPeripheralDelegate>
+{
+    NSInteger _style;
+}
 
 @property(nonatomic, strong)CBCentralManager *centralManager;
 @property(nonatomic, strong)NSMutableDictionary *deviceDic;
 
 @property(nonatomic, strong)CBPeripheral *peripheral;
+
+@property(assign, nonatomic) CBCharacteristic *characteristic;
 
 
 @end
@@ -189,7 +194,7 @@ didDiscoverCharacteristicsForService:(CBService *)service
             // 发送下行指令(发送一条)
             NSData *data = [@"硬件工程师给我的指令, 发送给蓝牙该指令, 蓝牙会给我返回一条数据" dataUsingEncoding:NSUTF8StringEncoding];
             // 将指令写入蓝牙
-                [self.peripheral writeValue:data forCharacteristic:characteristic type:CBCharacteristicWriteWithResponse];
+            [self.peripheral writeValue:data forCharacteristic:characteristic type:CBCharacteristicWriteWithResponse];
         }
         /**
          -- 当发现characteristic有descriptor,回调didDiscoverDescriptorsForCharacteristic
@@ -200,9 +205,7 @@ didDiscoverCharacteristicsForService:(CBService *)service
 
 #pragma mark - 获取值
 - (void)peripheral:(CBPeripheral *)peripheral didUpdateValueForCharacteristic:(CBCharacteristic *)characteristic error:(NSError *)error{
-    // characteristic.value就是蓝牙给我们的值(我这里是json格式字符串)
-    NSData *jsonData = [characteristic.value dataUsingEncoding:NSUTF8StringEncoding];
-    NSDictionary *dataDic = [NSJSONSerialization JSONObjectWithData:jsonData options:NSJSONReadingMutableContainers error:nil];
+    NSDictionary *dataDic = [NSJSONSerialization JSONObjectWithData:characteristic.value options:NSJSONReadingMutableContainers error:nil];
     // 将字典传出去就可以使用了
 }
 #pragma mark - 中心读取外设实时数据
