@@ -14,6 +14,7 @@
 		9328001223A6822300B14524 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9328001123A6822300B14524 /* Assets.xcassets */; };
 		9328001523A6822300B14524 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9328001323A6822300B14524 /* LaunchScreen.storyboard */; };
 		9328001823A6822300B14524 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9328001723A6822300B14524 /* main.m */; };
+		F67829DB23A799F200D6D80B /* BlueToothManager.m in Sources */ = {isa = PBXBuildFile; fileRef = F67829DA23A799F200D6D80B /* BlueToothManager.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +30,8 @@
 		9328001423A6822300B14524 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9328001623A6822300B14524 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9328001723A6822300B14524 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F67829D923A799F200D6D80B /* BlueToothManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BlueToothManager.h; sourceTree = "<group>"; };
+		F67829DA23A799F200D6D80B /* BlueToothManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BlueToothManager.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +56,7 @@
 		9328000423A6822100B14524 /* SmartDevice */ = {
 			isa = PBXGroup;
 			children = (
+				F67829D823A799A700D6D80B /* bluetooth */,
 				9328000523A6822100B14524 /* AppDelegate.h */,
 				9328000623A6822100B14524 /* AppDelegate.m */,
 				9328000823A6822100B14524 /* SceneDelegate.h */,
@@ -74,6 +78,15 @@
 				9328000423A6822100B14524 /* SmartDevice */,
 				9328000323A6822100B14524 /* Products */,
 			);
+			sourceTree = "<group>";
+		};
+		F67829D823A799A700D6D80B /* bluetooth */ = {
+			isa = PBXGroup;
+			children = (
+				F67829D923A799F200D6D80B /* BlueToothManager.h */,
+				F67829DA23A799F200D6D80B /* BlueToothManager.m */,
+			);
+			path = bluetooth;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -146,6 +159,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F67829DB23A799F200D6D80B /* BlueToothManager.m in Sources */,
 				9328000D23A6822100B14524 /* ViewController.m in Sources */,
 				9328000723A6822100B14524 /* AppDelegate.m in Sources */,
 				9328001823A6822300B14524 /* main.m in Sources */,
@@ -225,7 +239,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -277,7 +291,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
