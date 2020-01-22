@@ -2,12 +2,11 @@
 //  ViewController.m
 //  SmartDevice
 //
-//  Created by Aaron on 2019/12/15.
-//  Copyright © 2019 com.lizhi1026. All rights reserved.
+//  Created by 栗志 on 2020/1/22.
+//  Copyright © 2020 lizhi. All rights reserved.
 //
 
 #import "ViewController.h"
-#import "BlueToothManager.h"
 
 @interface ViewController ()
 
@@ -15,11 +14,10 @@
 
 @implementation ViewController
 
-- (void)viewDidLoad
-{
+- (void)viewDidLoad {
     [super viewDidLoad];
-    self.view.backgroundColor = [UIColor redColor];
-    [[BlueToothManager sharedInstance] openBlueTooth];
+    // Do any additional setup after loading the view.
+    self.view.backgroundColor = UIColor.redColor;
 }
 
 

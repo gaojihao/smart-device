@@ -7,35 +7,32 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		9328000723A6822100B14524 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9328000623A6822100B14524 /* AppDelegate.m */; };
-		9328000A23A6822100B14524 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9328000923A6822100B14524 /* SceneDelegate.m */; };
-		9328000D23A6822100B14524 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9328000C23A6822100B14524 /* ViewController.m */; };
-		9328001023A6822100B14524 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9328000E23A6822100B14524 /* Main.storyboard */; };
-		9328001223A6822300B14524 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9328001123A6822300B14524 /* Assets.xcassets */; };
-		9328001523A6822300B14524 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9328001323A6822300B14524 /* LaunchScreen.storyboard */; };
-		9328001823A6822300B14524 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9328001723A6822300B14524 /* main.m */; };
-		F67829DB23A799F200D6D80B /* BlueToothManager.m in Sources */ = {isa = PBXBuildFile; fileRef = F67829DA23A799F200D6D80B /* BlueToothManager.m */; };
+		F6C29E7F23D8449A00E03129 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F6C29E7E23D8449A00E03129 /* AppDelegate.m */; };
+		F6C29E8223D8449A00E03129 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F6C29E8123D8449A00E03129 /* SceneDelegate.m */; };
+		F6C29E8523D8449A00E03129 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F6C29E8423D8449A00E03129 /* ViewController.m */; };
+		F6C29E8823D8449A00E03129 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F6C29E8623D8449A00E03129 /* Main.storyboard */; };
+		F6C29E8A23D8449D00E03129 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F6C29E8923D8449D00E03129 /* Assets.xcassets */; };
+		F6C29E8D23D8449D00E03129 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F6C29E8B23D8449D00E03129 /* LaunchScreen.storyboard */; };
+		F6C29E9023D8449D00E03129 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F6C29E8F23D8449D00E03129 /* main.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		9328000223A6822100B14524 /* SmartDevice.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SmartDevice.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		9328000523A6822100B14524 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		9328000623A6822100B14524 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		9328000823A6822100B14524 /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
-		9328000923A6822100B14524 /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
-		9328000B23A6822100B14524 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		9328000C23A6822100B14524 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		9328000F23A6822100B14524 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		9328001123A6822300B14524 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		9328001423A6822300B14524 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		9328001623A6822300B14524 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		9328001723A6822300B14524 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		F67829D923A799F200D6D80B /* BlueToothManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BlueToothManager.h; sourceTree = "<group>"; };
-		F67829DA23A799F200D6D80B /* BlueToothManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BlueToothManager.m; sourceTree = "<group>"; };
+		F6C29E7A23D8449A00E03129 /* SmartDevice.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SmartDevice.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F6C29E7D23D8449A00E03129 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		F6C29E7E23D8449A00E03129 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		F6C29E8023D8449A00E03129 /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		F6C29E8123D8449A00E03129 /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		F6C29E8323D8449A00E03129 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		F6C29E8423D8449A00E03129 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		F6C29E8723D8449A00E03129 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F6C29E8923D8449D00E03129 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F6C29E8C23D8449D00E03129 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F6C29E8E23D8449D00E03129 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F6C29E8F23D8449D00E03129 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		9328FFFF23A6822100B14524 /* Frameworks */ = {
+		F6C29E7723D8449A00E03129 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -45,60 +42,50 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		9328000323A6822100B14524 /* Products */ = {
+		F6C29E7123D8449A00E03129 = {
 			isa = PBXGroup;
 			children = (
-				9328000223A6822100B14524 /* SmartDevice.app */,
+				F6C29E7C23D8449A00E03129 /* SmartDevice */,
+				F6C29E7B23D8449A00E03129 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F6C29E7B23D8449A00E03129 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F6C29E7A23D8449A00E03129 /* SmartDevice.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		9328000423A6822100B14524 /* SmartDevice */ = {
+		F6C29E7C23D8449A00E03129 /* SmartDevice */ = {
 			isa = PBXGroup;
 			children = (
-				F67829D823A799A700D6D80B /* bluetooth */,
-				9328000523A6822100B14524 /* AppDelegate.h */,
-				9328000623A6822100B14524 /* AppDelegate.m */,
-				9328000823A6822100B14524 /* SceneDelegate.h */,
-				9328000923A6822100B14524 /* SceneDelegate.m */,
-				9328000B23A6822100B14524 /* ViewController.h */,
-				9328000C23A6822100B14524 /* ViewController.m */,
-				9328000E23A6822100B14524 /* Main.storyboard */,
-				9328001123A6822300B14524 /* Assets.xcassets */,
-				9328001323A6822300B14524 /* LaunchScreen.storyboard */,
-				9328001623A6822300B14524 /* Info.plist */,
-				9328001723A6822300B14524 /* main.m */,
+				F6C29E7D23D8449A00E03129 /* AppDelegate.h */,
+				F6C29E7E23D8449A00E03129 /* AppDelegate.m */,
+				F6C29E8023D8449A00E03129 /* SceneDelegate.h */,
+				F6C29E8123D8449A00E03129 /* SceneDelegate.m */,
+				F6C29E8323D8449A00E03129 /* ViewController.h */,
+				F6C29E8423D8449A00E03129 /* ViewController.m */,
+				F6C29E8623D8449A00E03129 /* Main.storyboard */,
+				F6C29E8923D8449D00E03129 /* Assets.xcassets */,
+				F6C29E8B23D8449D00E03129 /* LaunchScreen.storyboard */,
+				F6C29E8E23D8449D00E03129 /* Info.plist */,
+				F6C29E8F23D8449D00E03129 /* main.m */,
 			);
 			path = SmartDevice;
-			sourceTree = "<group>";
-		};
-		9328FFF923A6822100B14524 = {
-			isa = PBXGroup;
-			children = (
-				9328000423A6822100B14524 /* SmartDevice */,
-				9328000323A6822100B14524 /* Products */,
-			);
-			sourceTree = "<group>";
-		};
-		F67829D823A799A700D6D80B /* bluetooth */ = {
-			isa = PBXGroup;
-			children = (
-				F67829D923A799F200D6D80B /* BlueToothManager.h */,
-				F67829DA23A799F200D6D80B /* BlueToothManager.m */,
-			);
-			path = bluetooth;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		9328000123A6822100B14524 /* SmartDevice */ = {
+		F6C29E7923D8449A00E03129 /* SmartDevice */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 9328001B23A6822300B14524 /* Build configuration list for PBXNativeTarget "SmartDevice" */;
+			buildConfigurationList = F6C29E9323D8449D00E03129 /* Build configuration list for PBXNativeTarget "SmartDevice" */;
 			buildPhases = (
-				9328FFFE23A6822100B14524 /* Sources */,
-				9328FFFF23A6822100B14524 /* Frameworks */,
-				9328000023A6822100B14524 /* Resources */,
+				F6C29E7623D8449A00E03129 /* Sources */,
+				F6C29E7723D8449A00E03129 /* Frameworks */,
+				F6C29E7823D8449A00E03129 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -106,24 +93,24 @@
 			);
 			name = SmartDevice;
 			productName = SmartDevice;
-			productReference = 9328000223A6822100B14524 /* SmartDevice.app */;
+			productReference = F6C29E7A23D8449A00E03129 /* SmartDevice.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		9328FFFA23A6822100B14524 /* Project object */ = {
+		F6C29E7223D8449A00E03129 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 1130;
-				ORGANIZATIONNAME = com.lizhi1026;
+				ORGANIZATIONNAME = lizhi;
 				TargetAttributes = {
-					9328000123A6822100B14524 = {
-						CreatedOnToolsVersion = 11.3;
+					F6C29E7923D8449A00E03129 = {
+						CreatedOnToolsVersion = 11.3.1;
 					};
 				};
 			};
-			buildConfigurationList = 9328FFFD23A6822100B14524 /* Build configuration list for PBXProject "SmartDevice" */;
+			buildConfigurationList = F6C29E7523D8449A00E03129 /* Build configuration list for PBXProject "SmartDevice" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -131,57 +118,56 @@
 				en,
 				Base,
 			);
-			mainGroup = 9328FFF923A6822100B14524;
-			productRefGroup = 9328000323A6822100B14524 /* Products */;
+			mainGroup = F6C29E7123D8449A00E03129;
+			productRefGroup = F6C29E7B23D8449A00E03129 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				9328000123A6822100B14524 /* SmartDevice */,
+				F6C29E7923D8449A00E03129 /* SmartDevice */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		9328000023A6822100B14524 /* Resources */ = {
+		F6C29E7823D8449A00E03129 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9328001523A6822300B14524 /* LaunchScreen.storyboard in Resources */,
-				9328001223A6822300B14524 /* Assets.xcassets in Resources */,
-				9328001023A6822100B14524 /* Main.storyboard in Resources */,
+				F6C29E8D23D8449D00E03129 /* LaunchScreen.storyboard in Resources */,
+				F6C29E8A23D8449D00E03129 /* Assets.xcassets in Resources */,
+				F6C29E8823D8449A00E03129 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		9328FFFE23A6822100B14524 /* Sources */ = {
+		F6C29E7623D8449A00E03129 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F67829DB23A799F200D6D80B /* BlueToothManager.m in Sources */,
-				9328000D23A6822100B14524 /* ViewController.m in Sources */,
-				9328000723A6822100B14524 /* AppDelegate.m in Sources */,
-				9328001823A6822300B14524 /* main.m in Sources */,
-				9328000A23A6822100B14524 /* SceneDelegate.m in Sources */,
+				F6C29E8523D8449A00E03129 /* ViewController.m in Sources */,
+				F6C29E7F23D8449A00E03129 /* AppDelegate.m in Sources */,
+				F6C29E9023D8449D00E03129 /* main.m in Sources */,
+				F6C29E8223D8449A00E03129 /* SceneDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		9328000E23A6822100B14524 /* Main.storyboard */ = {
+		F6C29E8623D8449A00E03129 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				9328000F23A6822100B14524 /* Base */,
+				F6C29E8723D8449A00E03129 /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		9328001323A6822300B14524 /* LaunchScreen.storyboard */ = {
+		F6C29E8B23D8449D00E03129 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				9328001423A6822300B14524 /* Base */,
+				F6C29E8C23D8449D00E03129 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -189,7 +175,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		9328001923A6822300B14524 /* Debug */ = {
+		F6C29E9123D8449D00E03129 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -239,7 +225,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -247,7 +233,7 @@
 			};
 			name = Debug;
 		};
-		9328001A23A6822300B14524 /* Release */ = {
+		F6C29E9223D8449D00E03129 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -291,7 +277,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -299,7 +285,7 @@
 			};
 			name = Release;
 		};
-		9328001C23A6822300B14524 /* Debug */ = {
+		F6C29E9423D8449D00E03129 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -310,13 +296,13 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.lizhi1026.SmartDevice;
+				PRODUCT_BUNDLE_IDENTIFIER = com.lizhi1026.smart;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
-		9328001D23A6822300B14524 /* Release */ = {
+		F6C29E9523D8449D00E03129 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -327,7 +313,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.lizhi1026.SmartDevice;
+				PRODUCT_BUNDLE_IDENTIFIER = com.lizhi1026.smart;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = 1;
 			};
@@ -336,25 +322,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		9328001B23A6822300B14524 /* Build configuration list for PBXNativeTarget "SmartDevice" */ = {
+		F6C29E7523D8449A00E03129 /* Build configuration list for PBXProject "SmartDevice" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				9328001C23A6822300B14524 /* Debug */,
-				9328001D23A6822300B14524 /* Release */,
+				F6C29E9123D8449D00E03129 /* Debug */,
+				F6C29E9223D8449D00E03129 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		9328FFFD23A6822100B14524 /* Build configuration list for PBXProject "SmartDevice" */ = {
+		F6C29E9323D8449D00E03129 /* Build configuration list for PBXNativeTarget "SmartDevice" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				9328001923A6822300B14524 /* Debug */,
-				9328001A23A6822300B14524 /* Release */,
+				F6C29E9423D8449D00E03129 /* Debug */,
+				F6C29E9523D8449D00E03129 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 9328FFFA23A6822100B14524 /* Project object */;
+	rootObject = F6C29E7223D8449A00E03129 /* Project object */;
 }
